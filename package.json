@@ -1,0 +1,43 @@
+{
+  "name": "psocket.io",
+  "version": "0.0.0",
+  "description": "node.js realtime framework parallel server",
+  "keywords": [
+    "realtime",
+    "framework",
+    "websocket",
+    "tcp",
+    "events",
+    "socket",
+    "io",
+    "parallel"
+  ],
+  "private": true,
+  "main": "./lib/index",
+  "dependencies": {
+    "priorityqueuejs": "^1.0.0",
+    "socket.io": "~1.3.7",
+    "uuid-js": "^0.7.5"
+  },
+  "devDependencies": {
+    "mocha": "1.16.2",
+    "expect.js": "0.3.1",
+    "supertest": "0.8.2",
+    "superagent": "0.17.0",
+    "istanbul": "0.2.3"
+  },
+  "scripts": {
+    "test": "mocha --reporter dot --slow 200ms --bail"
+  },
+  "contributors": [
+    {
+      "name": "Woong Gyu La",
+      "email": "juhgiyo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juhgiyo/psocket.io.git"
+  },
+  "license": "MIT"
+}
