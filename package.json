@@ -1,6 +1,6 @@
 {
   "name": "psocket.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "node.js realtime framework parallel server",
   "keywords": [
     "realtime",
@@ -12,10 +12,10 @@
     "io",
     "parallel"
   ],
-  "private": true,
   "main": "./lib/index",
   "dependencies": {
     "priorityqueuejs": "^1.0.0",
+    "psocket.io-adapter": "0.0.0",
     "socket.io": "~1.3.7",
     "uuid-js": "^0.7.5"
   },
