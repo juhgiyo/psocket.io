@@ -15,7 +15,7 @@
   "main": "./lib/index",
   "dependencies": {
     "priorityqueuejs": "^1.0.0",
-    "psocket.io-adapter": "0.0.0",
+    "psocket.io-adapter": "^0.0.1",
     "socket.io": "~1.3.7",
     "uuid-js": "^0.7.5"
   },
