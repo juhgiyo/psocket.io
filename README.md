@@ -6,6 +6,9 @@
 ![Downloads](http://img.shields.io/npm/dm/psocket.io.svg?style=flat)
 [![](http://slack.psocket.io/badge.svg)](http://slack.psocket.io)
 
+In Development
+=============
+
 ## How to use
 
 The following example attaches psocket.io to a plain Node.JS
@@ -40,7 +43,7 @@ function.
 var app = require('express')();
 var server = require('http').createServer(app);
 var io = require('psocket.io')(server);
-io.on('connection', function(){ /* ¡¦ */ });
+io.on('connection', function(){ /* Â¡Â¦ */ });
 server.listen(3000);
 ```
 
@@ -53,7 +56,7 @@ handler function, but only by calling the `callback` method.
 var app = require('koa')();
 var server = require('http').createServer(app.callback());
 var io = require('psocket.io')(server);
-io.on('connection', function(){ /* ¡¦ */ });
+io.on('connection', function(){ /* Â¡Â¦ */ });
 server.listen(3000);
 ```
 
@@ -308,7 +311,7 @@ server.listen(3000);
 
   A unique identifier for the socket session.
 
-### PSocket#emit(name:String[, ¡¦]):PSocket
+### PSocket#emit(name:String[, Â¡Â¦]):PSocket
 
   Emits an event to the socket identified by the string `name`. Any
   other parameters can be included.
